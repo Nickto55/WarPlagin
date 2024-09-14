@@ -1,0 +1,17 @@
+name: WarPlaginForE
+version: '0.3-SNAPSHOT'
+main: com.examle.WarPlaginForE
+api-version: '1.21'
+commands:
+  setruler:
+    description: "Назначает игрока правителем"
+    usage: "/setruler"
+  addplayer:
+    description: "Добавляет игрока в команду"
+    usage: "/addplayer <игрок>"
+  removeplayer:
+    description: "Удаляет игрока из команды"
+    usage: "/removeplayer <игрок>"
+  choosestrategy:
+    description: "Выбирает тактику"
+    usage: "/choosestrategy <тактика>"
